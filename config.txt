@@ -37,6 +37,9 @@ dtoverlay=rpi-backlight
 #       this won't work.
 #dtoverlay=w1-gpio-pullup,gpiopin=4
 
+# Add can0 SPI overlay
+dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25
+
 # The ramoops overlay works with the pstore driver to preserve crash
 # information across reboots in DRAM
 dtoverlay=ramoops

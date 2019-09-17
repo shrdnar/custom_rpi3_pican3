@@ -58,7 +58,7 @@ defmodule CustomRpi3Pican3.MixProject do
 
   defp description do
     """
-    Nerves System - Raspberry Pi 3 B / B+
+    Nerves System - Raspberry Pi 3 B / B+ with mcp2515-can0 overlay and socketcan for PiCAN3
     """
   end
 

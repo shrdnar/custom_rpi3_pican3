@@ -1,7 +1,7 @@
-defmodule NervesSystemRpi3Pican3.MixProject do
+defmodule CustomRpi3Pican3.MixProject do
   use Mix.Project
 
-  @app :nerves_system_rpi3_pican3
+  @app :custom_rpi3_pican3
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
            |> String.trim()
